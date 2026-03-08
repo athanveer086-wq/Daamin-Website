@@ -56,7 +56,11 @@
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^1.1.2",
     "zod": "^3.24.4"
-  },
+},
+"eslintConfig": {
+  "extends": [],
+  "rules": {}
+},
   "scripts": {
     "start": "craco start",
     "build": "CI=false craco build",
